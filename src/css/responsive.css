@@ -1,0 +1,102 @@
+@media(max-width: 1460px) {
+
+    body{
+        overflow: hidden;
+    }
+    .container {
+        height: 100%;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+    }
+
+    header img {
+        width: 300px;
+    }
+
+    .cards {
+        padding: 0;
+    }
+
+    .cards img {
+        justify-content: center;
+        text-align: center;
+        height: 200px;
+    }
+
+    .informacoes {
+        width: 100%;
+        margin: 0;
+        padding: 10;
+        align-items: center;
+        position: relative;
+        padding: 0;
+    }
+
+    .informacoes .subtitle {
+        width: 70%;
+        padding: 0;
+    }
+
+    .informacoes button {
+        display: flex;
+        width: 50%;
+        padding: 15px;
+        font-size: 17px;
+    }
+
+    .title {
+        font-size: 25px;
+    }
+
+    .subtitle {
+        font-size: 17px;
+    }
+
+    nav.redes {
+        min-height: 100vh;
+
+    }
+
+    ul.redes-sociais {
+        position: absolute;
+        width: 100%;
+        align-items: start;
+        justify-content: center;
+        bottom: 3px;
+        height: 10%;
+        align-items: center;
+    }
+}
+
+@media(max-width: 395px) {
+    header img {
+        width: 250px;
+        padding-bottom: 10px;
+    }
+
+    .informacoes.title {
+        font-size: 18px;
+    }
+
+    .informacoes .subtitle {
+        font-size: 12px;
+    }
+
+    .informacoes button {
+        margin: 5px;
+    }
+
+    ul.redes-sociais {
+        height: 11%;
+    }
+
+    header.logo{
+        padding: 0px;
+    }
+
+    div.container{
+        padding-top: 0px;
+        margin-top: 0px;
+    }
+}

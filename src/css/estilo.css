@@ -1,0 +1,124 @@
+body {
+    background-color: var(--cor-bg);
+    background-image: url(../images/bg-desktop.svg);
+    background-size: cover;
+    overflow: auto;
+    display: flex;
+}
+
+header img {
+    padding: 70px;
+    width: 360px;
+}
+
+
+.container {
+    display: flex;
+    height: 100%;
+}
+
+.cards {
+    padding-top: 25px;
+    padding-left: 80px;
+}
+
+.informacoes {
+    display: flex;
+    flex-direction: column;
+    margin-left: 60px;
+    height: 600px;
+    padding-top: 75px;
+    font-weight: 400;
+    width: 550px;
+
+}
+
+.title {
+    font-size: 46px;
+    color: #FFFFFF;
+    font-weight: 600;
+}
+
+.subtitle {
+    padding-top: 25px;
+    color: #ffffff;
+    font-size: 17px;
+    font-weight: 300;
+}
+
+.mockups {
+    height: 561px;
+}
+
+.informacoes button {
+    justify-content: center;
+    display: flex;
+    padding: 10px 20px;
+    background-color: #FFFFFF;
+    height: 60px;
+    width: 230px;
+    align-items: center;
+    border-radius: 50px;
+    margin-top: 38px;
+}
+
+.informacoes button:hover {
+    cursor: pointer;
+    background-color: hsl(300, 69%, 71%);
+    border-color: hsl(300, 69%, 71%);
+    color: #FFFFFF;
+}
+
+
+/* amanha continuar a partir dos icones */
+
+footer .redes{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: end;
+    justify-content: end;
+}
+
+.redes-sociais {
+    display: flex;
+    color: white;
+    font-size: 20px;
+    gap: 40px;
+}
+
+.fa-facebook-f {
+    border: 2px solid white;
+    border-radius: 90%;
+    padding: 15px;
+}
+
+.fa-twitter {
+    border: 2px solid white;
+    border-radius: 90%;
+    padding: 15px;
+}
+
+.fa-instagram {
+    border: 2px solid white;
+    border-radius: 90%;
+    padding: 15px;
+}
+
+.fa-facebook-f:hover {
+    cursor: pointer;
+    color: hsl(300, 69%, 71%);
+    border-color: hsl(300, 69%, 71%);
+}
+
+.fa-twitter:hover {
+    cursor: pointer;
+    color: hsl(300, 69%, 71%);
+    border-color: hsl(300, 69%, 71%);
+}
+
+.fa-instagram:hover {
+    cursor: pointer;
+    color: hsl(300, 69%, 71%);
+    border-color: hsl(300, 69%, 71%);
+}
