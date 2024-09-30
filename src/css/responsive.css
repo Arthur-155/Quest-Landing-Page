@@ -1,0 +1,128 @@
+@media(max-width: 1460px) {
+
+    body{
+        overflow: hidden;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .conteudo{
+        align-items: center;
+        justify-content: center;
+        
+    }
+
+
+    .container {
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        justify-content: center;   
+    }
+
+    header img {
+        width: 300px;
+    }
+
+    .cards {
+        padding: 0;
+        align-items: center;
+        text-align: center;
+    }
+
+    .cards img {
+        justify-content: center;
+        text-align: center;
+        height: 250px;
+    }
+
+    .informacoes {
+        width: 100%;
+        margin: 0;
+        padding: 10;
+        align-items: center;
+        position: relative;
+        padding: 0;
+    }
+
+    .informacoes .subtitle {
+        width: 70%;
+        padding: 0;
+    }
+
+    .informacoes button {
+        display: flex;
+        width: 50%;
+        padding: 15px;
+        font-size: 15px;
+    }
+
+    .title {
+        font-size: 25px;
+        flex-wrap: wrap;
+        margin: 15px;
+    }
+
+    .subtitle {
+        font-size: 17px;
+    }
+
+    footer{
+        width: 50%;
+    }
+
+    nav.redes {
+        width: 100%;
+
+    }
+
+    ul.redes-sociais {
+        position: absolute;
+        align-items: start;
+        justify-content: center;
+        bottom: 3px;
+        height: 10%;
+        align-items: center;
+        text-align: center;
+    }
+}
+
+@media(max-width: 395px) {
+    header img {
+        width: 170px;
+        padding-bottom: 10px;
+        padding: 40px;
+    }
+
+    .cards img{
+        height: 200px;
+    }
+
+    .informacoes.title {
+        font-size: 18px;
+    }
+
+    .informacoes .subtitle {
+        font-size: 12px;
+    }
+
+    .informacoes button {
+        margin: 5px;
+        margin-top: 20px;
+    }
+
+    ul.redes-sociais {
+        height: 11%;
+        text-align: center;
+        width: 50%;
+    }
+
+    header.logo{
+        padding: 0px;
+    }
+
+    div.container{
+        padding-top: 0px;
+        margin-top: 0px;
+    }
+}
